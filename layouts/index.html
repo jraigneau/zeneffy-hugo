@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
+
+	<div class="row">
+		<div class="twelve columns">
+		<!-- Recent Posts -->
+		{{ range first 5 .Data.Pages }}
+			{{ if eq .Type "post"}}
+			<div class="row">
+				<div class="twelve columns" >
+					<a class="post-title-link" href="{{ .Permalink }}">{{ .Title }}</a>
+				</div>
+			</div>
+
+            <div class="row">
+                    <div class="twelve columns" align="justify">
+                        {{ .Content }}
+                    </div>
+            </div>
+			{{ end }}
+	    {{ end }}
+		</div>
+	</div>
+	
+	
+	<div class="row">
+		<div class="twelve columns" style="text-align: right;">
+        <a href="/post/" style="text-decoration: none;">Voir les archives <span aria-hidden="true">&rarr;</span></a>
+		</div>
+	</div>
+
+{{ partial "footer.html" . }}

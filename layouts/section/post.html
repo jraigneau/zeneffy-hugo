@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
+
+	<div class="row">
+		<div class="twelve columns">
+		{{ range .Data.Pages.GroupByDate "06" }}
+				<h1 style="margin-bottom: 0px">20<span style="color: red;font-weight: 800">{{ .Key}}</span></h1>
+				{{ range .Pages}}
+					{{ if eq .Type "post"}}
+					<div class="row">
+						<div class="twelve columns" style="margin-top: 4px;">
+							<a class="post-title-link" href="{{ .Permalink }}">{{ .Title }}</a>
+						</div>
+					</div>
+					{{ end }}
+				{{ end }}
+				<br>
+		{{ end }}
+		
+
+		
+		
+		
+	</div>
+	</div>
+
+{{ partial "footer.html" . }}

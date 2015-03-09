@@ -1,0 +1,30 @@
+      </div>
+	  
+	  <div id="footer" class="container-footer">
+  		<div class="container">
+  			<div class="row">
+		    	<div class="twelve columns"  style="border-top: 5px solid #eee;">
+					<center>
+						<span style="font-family: 'Roboto Slab', serif;" >{{ .Site.Params.copyright  | safeHtml }}</pan>
+					</center>
+				</div>
+				<div style="line-height: 1;">
+					<center>
+			  	  	  	  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			  	  	    <a href="/tags/{{ $name | urlize }}" class="tags-link-footer">#{{ $name }}</a>
+			  	  	  	  {{ end }}
+			  		</center>
+				</div>
+			</div>
+		</div>
+    </div>
+
+  <script src="{{ .Site.BaseUrl }}/js/highlight.pack.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+</body>
+</html>
+

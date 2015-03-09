@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
+
+	<div class="row">
+    	<div class="twelve columns">
+    		<h1>{{ .Title }}</h1>
+    	</div>
+    </div>
+	<div class="row">
+		<div class="twelve columns"  align="justify">
+			{{ .Content }}
+		</div>
+	</div>
+	
+	<div class="row" style="border-top: 1px solid #eee; ">
+		<div class="twelve columns" style="background-color:white; color: black;">
+				<span class="post-postedby">Date de publication: {{ .Date.Format "02/01/2006" }}</span>
+		</div>
+		<div class="twelve columns" style="background-color:white; color: black;">
+			<span class="post-postedby">Mots-clefs: </span>
+				{{ range .Params.tags }}
+				<a style="text-decoration: none;" href="{{ $baseurl}}/tags/{{ . | urlize }}" class="tags-link">#{{ . }}</a>
+				{{ end }}
+		</div>
+	</div>
+	
+	<br/><br/>
+	<div class="row">
+		<div class="six columns" style="text-align: left;">
+	        {{ if .Prev }}
+	        <a href="{{ .Prev.Permalink }}" style="text-decoration: none;"><span aria-hidden="true">&larr;</span> Plus Récent</a>
+	        {{ else }}
+	        &nbsp;
+	        {{ end }}
+		</div>
+		<div class="six columns" style="text-align: right;">
+        {{ if .Next }}
+        <a href="{{ .Next.Permalink }}" style="text-decoration: none;">Plus Ancien <span aria-hidden="true">&rarr;</span></a>
+        {{ else }}
+        &nbsp;
+        {{ end }}
+		</div>
+	</div>
+	
+    
+	
+	<div class="row">
+        <div class="twelve columns">
+            &nbsp;
+        </div>
+    </div>
+
+{{ partial "footer.html" . }}

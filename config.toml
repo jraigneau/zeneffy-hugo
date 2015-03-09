@@ -1,0 +1,11 @@
+baseurl = "http://www.zeneffy.fr"
+languageCode = "fr-fr"
+title = "Zeneffy : journal de bord"
+
+[permalinks]
+    post = "/:year/:month/:filename/"
+	archives = "/:filename"
+
+[params]
+    githubUrl = "http://github.com/jraigneau"
+	copyright = "&#0169; 2008 - 2015, Julien Raigneau &nbsp;&nbsp;  | &nbsp;&nbsp;  Zeneffy >> Zen &amp; Efficace"
