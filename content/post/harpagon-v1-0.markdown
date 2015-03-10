@@ -6,29 +6,18 @@ tags:
 - projets
 - python
 - web.py
+- google
 ---
 
 Harpagon est une petite application web permettant d'organiser et visualiser graphiquement ses dépenses - elle est basée sur le framework [web.py](http://webpy.org/) et sur [Google Chart API](http://code.google.com/intl/fr/apis/chart/).
 
 **Fonctionnalités de la 1.0**
-
-
-
 	
   * Import de données de la BRED
-
-	
   * Tableau de bord fonctionnel avec stats sur 30j/3mois/Toutes dates
-
-	
   * Gestion des catégories et des règles de catégorisation
-
-	
   * Rejoue des règles possibles à tout moment
-
-	
   * Gestion des transactions
-
 
 **Captures d'écran**
 
@@ -39,6 +28,6 @@ Harpagon est une petite application web permettant d'organiser et visualiser gra
 
 **Où trouver Harpagon ?**
 
-Le code est disponible en open source [sous license Apache](http://fr.wikipedia.org/wiki/Licence_Apache) sur [Zeneffy:Labs](http://labs.zeneffy.fr/wiki/savemyprecious).
+Le code est disponible en open source [sous license Apache](http://fr.wikipedia.org/wiki/Licence_Apache) sur [Github](https://github.com/jraigneau/Harpagon).
 
 Le code est sans garantie et sans support.

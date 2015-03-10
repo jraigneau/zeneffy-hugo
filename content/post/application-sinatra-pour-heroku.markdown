@@ -9,7 +9,7 @@ tags:
 - sinatra
 ---
 
-Dernièrement je m'intéresse au framework de développement  [sinatra](http://www.sinatrarb.com/) qui est basé sur le langage Ruby (comme Ruby on Rails donc). Sinatra est un [DSL](http://fr.wikipedia.org/wiki/Domain-specific_programming_language) permettant de développer rapidement et simplement des applications web (un peu comme [webpy](http://webpy.org/) que j'avais utilisé sur [Harpagon](http://labs.zeneffy.fr/projets/harpagon/)).
+Dernièrement je m'intéresse au framework de développement  [sinatra](http://www.sinatrarb.com/) qui est basé sur le langage Ruby (comme Ruby on Rails donc). Sinatra est un [DSL](http://fr.wikipedia.org/wiki/Domain-specific_programming_language) permettant de développer rapidement et simplement des applications web (un peu comme [webpy](http://webpy.org/) que j'avais utilisé sur [Harpagon](https://github.com/jraigneau/Harpagon)).
 
 Pour déployer des applications sinatra, j'ai décidé de continuer à m'appuyer sur la plate-forme d'hébergement [Heroku](http://heroku.com/) - voila les quelques fichiers à mettre en oeuvre pour une application minimale - en activant la supervision [newrelic_rpm](http://newrelic.com/):
 <!--more-->

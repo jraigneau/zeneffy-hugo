@@ -15,6 +15,6 @@ Bien évidemment, l'application est en Ruby avec le framework [Sinatra](http://w
 <!--more-->
 En utilisant Google App Engine, je m'affranchis de la gestion de l'authentification (comptes google), de la base de donnée et surtout je peux utiliser un système [CRON](http://fr.wikipedia.org/wiki/Cron) intégré dans le service Google. Ce système me permet de lancer automatiquement et périodiquement les tests d'URL pour me donner le temps d'accès et calculer la disponibilité du site web.
 
-Après une petite semaine de travail, le premier résultat est très intéressant et peut-être utilisé par tous sur [veilleur.zeneffy.fr](http://veilleur.zeneffy.fr)
+Après une petite semaine de travail, le premier résultat est très intéressant et peut-être utilisé par tous.
 
-Le projet en lui même est géré via [GitHub](https://github.com/jraigneau/veilleur) + [Lighthouse](http://zeneffy.lighthouseapp.com/projects/69787-veilleur/overview) (tous les détails sur [labs.zeneffy.fr](http://labs.zeneffy.fr/projets/veilleur/))
+Le projet en lui même est géré via [GitHub](https://github.com/jraigneau/veilleur) + [Lighthouse](http://zeneffy.lighthouseapp.com/projects/69787-veilleur/overview)

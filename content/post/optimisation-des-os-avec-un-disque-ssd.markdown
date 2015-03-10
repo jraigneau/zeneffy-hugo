@@ -14,19 +14,10 @@ Ayant acheté dernièrement un disque dur SSD pour mon portable, il a fallu cher
 [www.ocztechnologyforum.com/forum/showthread.php?47212-Vista-32-64-SSD-Windows-Registry-tweaks](http://www.ocztechnologyforum.com/forum/showthread.php?47212-Vista-32-64-SSD-Windows-Registry-tweaks)
 
 En bref:
-
-
-
 	
   * Désactiver superfetch & prefetch
-
-	
   * Activer ```clearPageFilesAtShutdown``` et ```LargeSystemCache```
-
-	
   * Amélioration du cache disque NTFS
-
-	
   * Suppression indexation automatique + hibernation (pour gagner de l'espace)
 
 
@@ -37,13 +28,8 @@ En bref:
 En synthèse:
 	
   * S'assurer d'être en noatime
-
-	
   * Utiliser la mémoire vive comme /tmp
-
-	
   * Changer le scheduler disque (prendre noop)
-
 
 Résultat:
 

@@ -15,7 +15,7 @@ iPieuvre fait actuellement tourner mon propre site de photo/multimédia:[ Instan
 
 **Code**
 
-Le code est disponible en open source sous license Apache sur[ Zeneffy:labs](http://labs.zeneffy.fr/wiki/ipieuvre)
+Le code est disponible en open source sous license Apache sur[Github](https://github.com/jraigneau/iPieuvre)
 
 Le code est sans garantie et sans support.
 

@@ -7,22 +7,11 @@ tags:
 ---
 
 J'utilisais jusqu'à quelques mois ma propre application web de comptabilité [Harpagon](/2010/03/07/harpagon-la-version-1-1-pingre-est-enfin-sortie/) pour gérer mon budget personnel. Ayant décidé de me débarrasser du serveur qui l'hébergeait, j'ai donc cherché un remplaçant avec des spécifications bien particulières:
-
-
-
 	
   * Possibilité d'assigner automatiquement des catégories via des règles (type expression régulière)
-
-	
   * Notion de budget (prévision/consommé)
-
-	
   * Statistiques
-
-	
   * en mode desktop (et non plus web)
-
-	
   * Simplicité
 
 

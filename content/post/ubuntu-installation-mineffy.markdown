@@ -9,13 +9,13 @@ tags:
 
 Un petit pense-bête sur le **min**imum à réinstaller avant d'être **eff**icace avec une nouvelle version d'ubuntu
 	
-  * Installer[ Chromium](http://doc.ubuntu-fr.org/chromium-browser), le navigateur web:
+Installer [Chromium](http://doc.ubuntu-fr.org/chromium-browser), le navigateur web:
 
 		sudo apt-get install chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg chromium-codecs-ffmpeg-nonfree
 
 et installer extensions: [Gmail](https://chrome.google.com/extensions/detail/lnejbeiilmbliffhdepeobjemekgdnok) et [Delici.ous](https://chrome.google.com/extensions/detail/lnejbeiilmbliffhdepeobjemekgdnok)
 	
-  * Installer le nécessaire pour [Ruby et Ruby On Rails via RVM](http://doc.ubuntu-fr.org/rubyonrails#installation_complete_de_ruby_192_et_rails_30_via_rvm_maverick_meerkat)
+Installer le nécessaire pour [Ruby et Ruby On Rails via RVM](http://doc.ubuntu-fr.org/rubyonrails#installation_complete_de_ruby_192_et_rails_30_via_rvm_maverick_meerkat)
 
 		sudo apt-get install curl git-core build-essential zlib1g-dev libssl-dev libreadline6-dev
 		sudo bash < <( curl -L http://bit.ly/rvm-install-system-wide )
@@ -36,7 +36,7 @@ Installer Rails et autres gem utiles:
 	sudo rvm gem install rails
 	sudo rvm gem install redcar heroku vagrant cheat
 	
-  * Utilitaires à ajouter ou à enlever
+Utilitaires à ajouter ou à enlever
 
 		sudo apt-get install gnome-do gimp terminator
 		sudo apt-get install vim ctags vim-doc vim-scripts
@@ -44,16 +44,12 @@ Installer Rails et autres gem utiles:
 		sudo apt-get purge f-spot gbrainy tomboy evolution evolution-common evolution-couchdb evolution-exchange evolution-indicator evolution-plugins evolution-webcal libegroupwise1.2-13
 		sudo add-apt-repository ppa:tiheum/equinox
 		sudo apt-get update && sudo apt-get install faenza-icon-theme
-
-
 	
-  * l'obligatoire [DropBox](http://www.dropbox.com/downloading?os=lnx) pour synchroniser mes fichiers entre PC
+l'obligatoire [DropBox](http://www.dropbox.com/downloading?os=lnx) pour synchroniser mes fichiers entre PC
 
+Les clés ssh
 	
-  * Les clés ssh
-
-	
-  * Ajout des montages NFS
+Ajout des montages NFS
 
 		installer autofs: sudo apt-get install autofs
 

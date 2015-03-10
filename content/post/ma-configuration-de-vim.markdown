@@ -9,27 +9,12 @@ tags:
 
 Quelques liens utiles
 
-	
   * [python-and-vim-make-your-own-ide]( http://dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/)
-
-	
   * [code-navigation-completion-snippets-in-vim](http://dancingpenguinsoflight.com/2009/02/code-navigation-completion-snippets-in-vim/)
-
-	
   * [light-at-the-end-of-the-carpal-tunnel-snippets-in-vim-with-snipmate](http://dancingpenguinsoflight.com/2009/07/light-at-the-end-of-the-carpal-tunnel-snippets-in-vim-with-snipmate/)
-
-	
   * [rails-on-vim-in-english]( http://akitaonrails.com/2009/01/04/rails-on-vim-in-english)
-
-	
   * [vim.runpaint.org/toc](http://vim.runpaint.org/toc/)
-
-	
   * [FuzzyFinder](http://weblog.jamisbuck.org/2008/10/10/coming-home-to-vim) (utiliser 2.16!!)
-
-
-
-
 
 Quelques raccourcis à connaître:
 

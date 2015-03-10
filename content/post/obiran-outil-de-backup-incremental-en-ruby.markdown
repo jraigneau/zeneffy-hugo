@@ -15,18 +15,10 @@ Sauvegarder régulièrement les données est un réflexe à avoir car le monde n
 Le mieux est d'automatiser cette tâche, aussi j'ai développé OBIRAN - Outil de Backup Incrémental en Ruby ('Obiran Kenobi, vous êtes notre seul espoir' (Princesse Leila, Starwars IV) ).
 
 Ce script en langage Ruby permet d'effectuer des sauvegardes incrémentales en utilisant rsync, ssh et cp.
-
-
-
 	
-  * Rsync permet de synchroniser deux répertoires.
-
-	
-  * ssh donne les accès à distance.
-
-	
-  * cp -al est utilisé pour faire des copies de répertoires _Hard-Link en anglais_ sans perdre trop de place.
-
+   * Rsync permet de synchroniser deux répertoires.
+   * ssh donne les accès à distance.
+   * cp -al est utilisé pour faire des copies de répertoires _Hard-Link en anglais_ sans perdre trop de place.
 
 **Principe**
 
@@ -34,12 +26,7 @@ _Incrémental ?_
 
 Ce script est très fortement inspiré des idées de synchronisation trouvées sur les pages suivantes:
 
-
-
-	
   * [Backups using rsync](http://www.sanitarium.net/golug/rsync_backups.html) par Kevin Korb
-
-	
   * [Easy Automated Snapshot-Style Backups with Linux and Rsync](http://www.mikerubel.org/computers/rsync_snapshots/) par Mike Rubel
 
 

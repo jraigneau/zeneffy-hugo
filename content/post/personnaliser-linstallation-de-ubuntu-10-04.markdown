@@ -32,13 +32,14 @@ ne pas oublier d'installer ```fuzzy_file_finder``` via ```sudo gem install fuzzy
 
 **Un peu de multimédia et d'utilitaires**
 
-1. Installation du Navigateur Chromium (version open source de Chrome)
+Installation du Navigateur Chromium (version open source de Chrome)
 
 		sudo add-apt-repository ppa:chromium-daily/dev
 		sudo apt-get update
 		sudo apt-get install chromium-browser chromium-browser-l10n
 
-2. Quelques Indispensables du Dessin, de la Vidéo, et de la Musique + [Gnome-Do](http://do.davebsd.com/)
+
+Quelques Indispensables du Dessin, de la Vidéo, et de la Musique + [Gnome-Do](http://do.davebsd.com/)
 
 		sudo apt-get install gimp vlc exaile gnome-do flashplugin-nonfree
 		sudo apt-get install sun-java6-jdk
@@ -70,16 +71,7 @@ Enfin on peut installer rails et sqlite (je n'utilise pas mysql ni postgresql su
 	sudo gem install sqlite3-ruby
 
 En bonus, quelques gems intéressants
-
-
-
 	
   * Cheatsheet automatiques: ```sudo gem install cheat```
-
-	
   * Changement facile des hosts de la machine: ```sudo gem install ghost```
-
-	
   * Partage de snippets de code: ```sudo gem install gist```
-
-

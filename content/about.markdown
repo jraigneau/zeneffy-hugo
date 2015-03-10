@@ -17,4 +17,4 @@ Dernièrement, c'est la [domotique](/tags/domotique) qui m'intéresse le plus, d
 # Qui suis-je ?
 **Julien Raigneau** **=** [fin de trentaine](http://fr.wikipedia.org/wiki/1978) **+** **père** attentionné et **mari** passionné **+** tombé dans la **marmitte de l'informatique** il y a plus de 25 ans **+**  **lecteur** assidu de SF avec ou sans image **+** [gamer](http://steamcommunity.com/id/sirjuh) occasionnel **+** **développeur** plus ou moins [inspiré](/tags/projets) **+** **photographe** du dimanche **+** **manager** avec une âme d'**ingénieur** et actuellement [directeur de projets spécialisé en infrastructures IT](https://www.linkedin.com/in/jraigneau).
 
-Bref, geek.
+Bref, **geek**.

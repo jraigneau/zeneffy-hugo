@@ -11,18 +11,10 @@ tags:
 Ce script écrit Python permet d'envoyer des photos extraites via [Picasa](http://picasa.google.fr/ ) sur un site FTP, le tout avec une interface graphique GTK2.
 
 C'est mon premier développement "important" en Python - il m'a permis notamment de voir:
-
-
-
 	
   * Interface graphique et GTK2 et utilisation de [Glade](http://daniel.coquette.free.fr/dotclear/index.php/post/2006/12/11/Creer-des-interfaces-graphique-avec-PyGTK-et-Glade).
-
-	
   * Utilisation de la librairie [ftplib](http://docs.python.org/lib/module-ftplib.html).
-
-	
   * [Mécanique des threads](http://faq.pygtk.org/index.py?req=show&file=faq20.006.htp) dans une IHM.
-
 
 Il reste fortement améliorable, notamment en ce qui concerne la gestion des exceptions (try...except).
 
@@ -294,14 +286,9 @@ et le fichier glade correspondant
 	</glade-interface>
 
 **Ressources**
-
 	
   * [http://nedbatchelder.com/code/modules/FtpUpload.py](http://nedbatchelder.com/code/modules/FtpUpload.py)
-
-	
   * [http://effbot.org/librarybook/ftplib.htm](http://effbot.org/librarybook/ftplib.htm)
-
-	
   * [http://mail.python.org/pipermail/python-list/2003-September/224679.html](http://mail.python.org/pipermail/python-list/2003-September/224679.html)
 
 

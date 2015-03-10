@@ -11,7 +11,7 @@ tags:
 
 Dans le cadre de l'application [vauban](http://labs.zeneffy.fr/projets/vauban/) développée via le framework [RubyOnRails](http://rubyonrails.org/), j'ai été amené à intégrer [Google Analytics](http://www.google.com/analytics/) en 3 étapes très simples:
 
-1. Créer le compte dans Google Analytics pour obtenir un code javascript du type
+Créer le compte dans Google Analytics pour obtenir un code javascript du type
 
 		<script type="text/javascript">
 
@@ -27,8 +27,9 @@ Dans le cadre de l'application [vauban](http://labs.zeneffy.fr/projets/vauban/) 
 
 		</script>
 
-2. Créer un "partial" dans ```app/views/layouts_ appelé __ga.html.rb``` et y copier le javascript
-3. Insérer le code dans la balise ```<head>``` du fichier ```app/view/layouts/application.html.erb``` (pour l'avoir sur tout le site - à modifier éventuellement)
+Créer un "partial" dans ```app/views/layouts_ appelé __ga.html.rb``` et y copier le javascript
+
+Insérer le code dans la balise ```<head>``` du fichier ```app/view/layouts/application.html.erb``` (pour l'avoir sur tout le site - à modifier éventuellement)
 
 	 	<%= render :partial => "layouts/ga" if Rails.env.production? %>
 

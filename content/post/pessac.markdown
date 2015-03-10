@@ -14,4 +14,4 @@ Ce reporting est basé non sur l'avancement planning du projet mais sur la prés
 
 Il permet par ailleurs de suivre de manière centralisé l'avancement de plusieurs projets et gère le concept d'archivage.
 
-Ce projet est entièrement géré via Google Code:[ http://code.google.com/p/pessac/]( http://code.google.com/p/pessac/)
+Ce projet est entièrement géré via [Google Code](https://code.google.com/p/pessac/)

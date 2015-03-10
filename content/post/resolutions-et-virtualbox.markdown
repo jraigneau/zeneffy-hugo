@@ -7,7 +7,7 @@ tags:
 - virtualisation
 ---
 
-Suite à l'[installation de Ubuntu 10.04 sous VirtualBox](http://blog.zeneffy.fr/2010/05/16/personnaliser-linstallation-de-ubuntu-10-04/), je me suis un peu battu pour avoir une résolution correcte en mode plein écran (aka 1280x800 sur mon portable).
+Suite à l'[installation de Ubuntu 10.04 sous VirtualBox](/2010/05/16/personnaliser-linstallation-de-ubuntu-10-04/), je me suis un peu battu pour avoir une résolution correcte en mode plein écran (aka 1280x800 sur mon portable).
 
 Voici ce que j'ai trouvé: tout d'abord il faut rajouter la résolution nécessaire:
 
