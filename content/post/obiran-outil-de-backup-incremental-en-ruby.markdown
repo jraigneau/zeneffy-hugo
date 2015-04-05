@@ -67,4 +67,4 @@ Rsync permet de synchroniser les fichiers: c'est cette commande qui va gérer le
 
 L'association de ces deux commandes permet de faire des sauvegardes rapidement et en occupant un minimum de place.
 
-Ce projet est entièrement géré via Google Code: [http://code.google.com/p/obiran/](http://code.google.com/p/obiran/)
+Ce projet est entièrement géré via Github: [https://github.com/jraigneau/obiran](https://github.com/jraigneau/obiran)

@@ -5,6 +5,7 @@ title: SaveMyPrecious - Sauvegardes de fichier
 tags:
 - projets
 - python
+- backup
 ---
 
 SaveMyPrecious remplace [Saise](/2008/09/saise-sauvegarde-incrementale-securisee/) et permet donc une sauvegarde incrémentale totale (chaque sauvegarde se suffit à elle même) distante via l'utilisation de la commande cp -al et de rsync. Les principes de base sont expliqués sur la page de présentation d'[Obiran](/2008/05/obiran-outil-de-backup-incremental-en-ruby/), le premier script de sauvegarde que j'ai écrit.

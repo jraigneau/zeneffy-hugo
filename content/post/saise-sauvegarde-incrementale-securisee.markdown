@@ -8,7 +8,7 @@ tags:
 - python
 ---
 
-SAISE est le digne successeur d'[Obiran](/2008/05/obiran-outil-de-backup-incremental-en-ruby/) dont il reprend toutes les fonctionnalités, soit une sauvegarde incrémentale totale (chaque sauvegarde se suffit à elle même) distante via l'utilisation de la commande cp -al et de rsync. Les principes de base sont expliqués sur la page de présentation d'Obiran, lui-même disponible sur [http://code.google.com/p/obiran/](http://code.google.com/p/obiran/). 
+SAISE est le digne successeur d'[Obiran](/2008/05/obiran-outil-de-backup-incremental-en-ruby/) dont il reprend toutes les fonctionnalités, soit une sauvegarde incrémentale totale (chaque sauvegarde se suffit à elle même) distante via l'utilisation de la commande cp -al et de rsync. Les principes de base sont expliqués sur la page de présentation d'Obiran, lui-même disponible sur [https://github.com/jraigneau/obiran](https://github.com/jraigneau/obiran). 
 
 SAISE apporte toutefois des différences importantes:
 
@@ -67,4 +67,4 @@ SAISE est sous [license apache v2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 **Où trouver SAISE ?**
 
-Ce projet est actuellement dans l'incubateur sur [Google Code](https://code.google.com/p/tifauve-labs/), et les sources sont gérés via subversion sur [http://code.google.com/p/tifauve-labs/source/browse/trunk/SAISE](http://code.google.com/p/tifauve-labs/source/browse/trunk/SAISE)
+Ce projet est actuellement disponible sur [Github](https://github.com/jraigneau/saise).
