@@ -1,8 +1,11 @@
   .post-title-link {
 	color: black;
 	text-decoration: none;
-	font-size: 5rem;
-  line-height: 1.2;
+  font-size: 4.2rem;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  line-height: 1.25;
   letter-spacing: -0.1rem;
    }
   .post-title-link:hover {

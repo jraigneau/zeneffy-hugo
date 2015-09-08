@@ -8,8 +8,8 @@
 				{{ range .Pages}}
 					{{ if eq .Type "post"}}
 					<div class="row">
-						<div class="twelve columns" style="margin-top: 4px;">
-							<a class="post-title-link" href="{{ .Permalink }}">{{ .Title }}</a>
+						<div class="twelve columns">
+							<a class="post-title-link" href="{{ .Permalink }}">#{{ .Title }}</a>
 						</div>
 					</div>
 					{{ end }}

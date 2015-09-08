@@ -7,8 +7,8 @@
 		{{ range first 5 .Data.Pages }}
 			{{ if eq .Type "post"}}
 			<div class="row">
-				<div class="twelve columns" >
-					<a class="post-title-link" href="{{ .Permalink }}">{{ .Title }}</a>
+				<div class="twelve columns">
+					<h1>#{{ .Title }}</h1>
 				</div>
 			</div>
 
@@ -17,6 +17,7 @@
                         {{ .Content }}
                     </div>
             </div>
+            <br/>
 			{{ end }}
 	    {{ end }}
 		</div>

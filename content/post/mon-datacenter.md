@@ -7,14 +7,14 @@ title : Mon datacenter
 slug : mon-datacenter
 ---
 #### le datacenter à la maison : un rêve de geek
-Ayant acheté une maison l’année dernière avec beaucoup d’espace et surtout un grand garage, j’en ai profité pour réaliser un vieux fantasme de geek : Avoir un endroit dédié pour mon matériel informatique…bref mon propre mini datacenter.
+Ayant acheté une maison l’année dernière avec beaucoup d’espace et surtout un grand garage, j’en ai profité pour réaliser un vieux fantasme de geek : Avoir un endroit dédié pour mon matériel informatique, bref mon propre mini datacenter.
 
 Derrière ce fantasme, un besoin simple: créer un espace protégé, ventilé et [présentable](http://fr.wikipedia.org/wiki/Facteur_d%27acceptation_f%C3%A9minine) pour héberger un NAS Synology, un  mini-serveur NUC, un antenne RFXCom pour la domotique, un hub NetGear et un UPS APC - le tout avec des capacités d’évolution et en respectant certaines règles d’urbanisation. En bonus, un vieux PC avec hauts-parleurs est installé pour me permettre d’écouter de la musique en bricolant ou pour consulter rapidement des infos domotiques.
 
 <img src="https://farm9.staticflickr.com/8708/16972064590_a4f1719aec_z.jpg" width="640" height="478" alt="datacenter1" align="middle">
 
 #### De la « récup » et de l’huile de coude
-Après quelques recherches sur internet sur le sujet, j’ai trouvé de nombreux exemples de bricoleurs geek qui ont transformé (ou même créer) des meubles pour cette usage: j’ai donc décidé de me lancer moi aussi en partant d’un petit meuble existant.
+Après quelques recherches sur internet sur le sujet, j’ai trouvé de nombreux exemples de bricoleurs geek qui ont transformé (ou même créé) des meubles pour cette usage: j’ai donc décidé de me lancer moi aussi en partant d’un petit meuble existant.
 
 Quatre étapes majeures ont composé la création de ce meuble datacenter:
 
@@ -29,7 +29,7 @@ Tout d’abord, j’ai percé des ouvertures sur la porte avant, sur l’arrièr
 <img src="https://farm9.staticflickr.com/8732/16539846743_53e48f0cb9_n.jpg" width="320" height="239" alt="IMG_0786">
 <img src="https://farm8.staticflickr.com/7710/17159850705_0d20c08d1b_n.jpg" width="239" height="320" alt="IMG_0812">
 
-Puis j’ai rajouté une VMC de salle de bain pour assurer extraction d’air optimale, avec un allumage automatique via un [micro-module Chacon](http://www.amazon.fr/Myfox-TA3010-62592-Module-1000/dp/B0033ZREXU/ref=pd_sim_hi_1?ie=UTF8&refRID=1R4NH6AP9KE53T4K6F7K) commandé par la box domotique opensource [Domoticz](http://domoticz.com/) et basé sur un capteur de température [Oregon Scientific](http://www.amazon.fr/Oregon-Scientific-THN-D%C3%A9tecteur-temp%C3%A9rature/dp/B000PEDJVI).
+Puis j’ai rajouté une VMC de salle de bain pour assurer extraction d’air optimale, avec un allumage automatique via un [micro-module Chacon](http://www.amazon.fr/Myfox-TA3010-62592-Module-1000/dp/B0033ZREXU/ref=pd_sim_hi_1?ie=UTF8&refRID=1R4NH6AP9KE53T4K6F7K) commandé par la box domotique open-source [Domoticz](http://domoticz.com/) et basé sur un capteur de température [Oregon Scientific](http://www.amazon.fr/Oregon-Scientific-THN-D%C3%A9tecteur-temp%C3%A9rature/dp/B000PEDJVI).
 
 <img src="https://farm8.staticflickr.com/7637/16972282098_f363ed97bb_z.jpg" width="640" height="478" alt="IMG_0818">
 
@@ -38,7 +38,7 @@ Grâce à ce montage, la VMC ne se déclenche que si la température à l’int�
 <img src="https://farm9.staticflickr.com/8701/16539781163_9c69f57da3_c.jpg" width="800" height="221" alt="Domoticz">
 
 #### L’importance d’optimiser son câblage
-Qui n’a jamais eu de problème de câble qui se mélangent, s’entortillent et se croisent (regardez donc les câbles entre votre télévision, votre box tv et votre lecteur de DVD par exemple!)? Sur un environnement confiné avec à la fois des câbles électriques et des câbles réseau, cela peut devenir l’enfer en cas de modification ou de dépannage.
+Qui n’a jamais eu de problème de câble qui se mélangent, s’entortillent et se croisent (regardez donc les câbles entre votre télévision, votre box tv et votre lecteur de DVD par exemple)? Sur un environnement confiné avec à la fois des câbles électriques et des câbles réseau, cela peut devenir l’enfer en cas de modification ou de dépannage.
 
 <img src="https://farm9.staticflickr.com/8765/17159460861_efc4b76ef2_z.jpg" width="640" height="478" alt="IMG_0817">
 
