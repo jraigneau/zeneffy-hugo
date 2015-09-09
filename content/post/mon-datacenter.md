@@ -71,5 +71,3 @@ Les objectifs sont tous atteints, avec finalement peu de moyens engagés (moins 
 
 Je réfléchis maintenant à acheter un mini-PC pas cher pour remplacer le vieux Celeron 1Go qui peine même sous linux.
 
-
-

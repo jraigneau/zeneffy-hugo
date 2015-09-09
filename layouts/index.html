@@ -17,7 +17,18 @@
                         {{ .Content }}
                     </div>
             </div>
-            <br/>
+            <div class="row" style="border-top: 1px solid #eee; ">
+				<div class="twelve columns" style="background-color:white; color: black;">
+					<span class="post-postedby">Date de publication: {{ .Date.Format "02/01/2006" }}</span>
+				</div>
+				<div class="twelve columns" style="background-color:white; color: black;">
+					<span class="post-postedby">Mots-clefs: </span>
+				{{ range .Params.tags }}
+				<a style="text-decoration: none;" href="{{ $baseurl}}/tags/{{ . | urlize }}" class="tags-link">#{{ . }}</a>
+				{{ end }}
+				</div>
+			</div>
+            <br/><br/>
 			{{ end }}
 	    {{ end }}
 		</div>

@@ -39,25 +39,34 @@ Dans mon cas, j'ai choisi de mettre en œuvre [emoncms](http://emoncms.org/), qu
 <img src="https://c1.staticflickr.com/1/537/18397961713_b644294b27.jpg" width="500" height="276" alt="temperature">
 
 #### Intégration des systèmes
-gérer l'internet of thing et mixer les services
-node-red
+Pour bien gérer "l'[internet of things](https://en.wikipedia.org/wiki/Internet_of_Things)" et mixer les services logiciels, les objets connectés, et les différents capteurs, j'ai par ailleurs installé [node-red](http://nodered.org/), qui est développé par IBM.
+
+Node-red permet de créer des workflows entre objet pour les faire interagir entre eux simple, le tout via une IHM web. Ces workflows permettent via un peu de développement très simple en javascript d'analyser des flux de données venant de sondes ou de services, de les transformer avant de les renvoyer vers d'autres sondes ou services.
+
+<img src="http://nodered.org/images/node-red-screenshot-sm.png" alt="nodered">
+
+Ainsi, j'ai pu créer des flux pour récupérer les données de la box domotique avant de les envoyer vers emoncms et d'en faire des graphiques et des premières analyses.
 
 #### Réalisations actuelles - plutôt orientées mesures
+Ces derniers mois, je me suis attaché à mettre en œuvre les différents points de mesure, avec notamment:
 
-* mesures de la température dans toutes les pièces + extérieur
-* mesure de la consommation électrique
-* vidéo surveillance
+* Mesures de la température dans toutes les pièces de vie (Chambres, Salon) via des sondes [Oregon Scientific](http://www.amazon.fr/Oregon-Scientific-THN-D%C3%A9tecteur-temp%C3%A9rature/dp/B000PEDJVI)
+* Récupération de la consommation électrique directement sur le compteur avec une pince ampérométrique de chez [OWL](http://www.amazon.fr/dp/B006R7E8MG/ref=pe_386181_37038081_TE_3p_dp_1)
 
-#### Réalisations à venir
+J'ai par ailleurs commencé à installer des caméras intérieures pour la vidéosurveillance, avec [motion](http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome) et [motioneye](https://github.com/ccrisan/motioneye) pour gérer les détections et l'enregistrement des films. Ces films sont enregistrés à la fois en local et sur une DropBox dédiée en cas de coupure (ou disparition du disque dur...)
 
-* Contrôle automatique des lumières du jardin
-* Mise en œuvre d'un contrôle vocal type SARAH
-* Extension de la vidéo surveillance
-* Détecteurs de présence extérieurs / intérieurs
+<img src="https://github.com/ccrisan/motioneye/wiki/images/desktop-view.png" width="500" height="276" alt="motioneye">
 
-#### Et ce qui reste à étudier
+#### Réalisations à venir ou qui reste à étudier
+Le champ des possibles de la domotique est impressionnant et j'imagine par exemple mettre en œuvre d'autres activités comme: 
+
+* Contrôle automatique des lumières du jardin selon l'heure de la journée.
+* Mise en œuvre d'un contrôle vocal type [S.A.R.A.H](http://blog.encausse.net/s-a-r-a-h/)
+* Extension de la vidéo surveillance à l'extérieure, avec déclenchement d'actions suite à des événements
+* Mesure de l'humidité dans la salle de douche pour allumer/éteindre la VMC
 * Contrôle des radiateurs via boutons électroniques
 * Détection des lumières laissées allumées par les enfants
 * Automatisation des fermetures de volets
-* envoi d'information via SMS ou twitter (?)
-* Mesure de l'humidité dans la salle de douche
+* envoi d'information via SMS
+* ....
+Bref, de quoi s'occuper quelques temps !
