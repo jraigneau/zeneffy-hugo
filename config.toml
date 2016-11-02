@@ -1,6 +1,10 @@
 baseurl = "http://www.zeneffy.fr"
 languageCode = "fr-fr"
 title = "Zeneffy : journal de bord"
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+# color-codes for highlighting derived from this style
+pygmentsStyle = "monokai"
 
 [permalinks]
     post = "/:year/:month/:filename/"
@@ -8,4 +12,4 @@ title = "Zeneffy : journal de bord"
 
 [params]
     githubUrl = "http://github.com/jraigneau"
-	copyright = "&#0169; 2008 - 2015, Julien Raigneau &nbsp;&nbsp;  | &nbsp;&nbsp;  Zeneffy >> Zen &amp; Efficace"
+	copyright = "&#0169; 2008 - 2016, Julien Raigneau &nbsp;&nbsp;  | &nbsp;&nbsp;  Zeneffy >> Zen &amp; Efficace"
