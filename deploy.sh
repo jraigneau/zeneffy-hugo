@@ -8,7 +8,14 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 # Go To Public folder
 cd public
 # Add changes to git.
-git add -A
+# git add -A
+cp -R ..\..\jraigneau.github.io\
+
+cd ..
+
+cd ..
+
+cd jraigneau.github.io\
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -22,3 +29,5 @@ git push origin master
 
 # Come Back
 cd ..
+
+cd zeneffy-hugo
