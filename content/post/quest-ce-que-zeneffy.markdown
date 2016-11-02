@@ -10,4 +10,4 @@ Zeneffy.fr est un petit aggrégat de sites web pour exposer quelques projets, se
 
 A noter que contrairement à un blog "journal intime", blog.zeneffy.fr n'a pas vocation à exposer ma vie ou à être mis à jour régulièrement.
 
-Il remplace[ 10 ans de blogs et wikis](/post/ma-petite-histoire-du-web) dont les versions sont encore consultables (pour la postérité!), et sera probablement remplacé un jour ou l'autre par la prochaine génération de technologies/frameworks/nouveaux concepts/web 3 / 4.0 comme ses prédécesseurs!
+Il remplace[ 10 ans de blogs et wikis](/2010/03/ma-petite-histoire-du-web/) dont les versions sont encore consultables (pour la postérité!), et sera probablement remplacé un jour ou l'autre par la prochaine génération de technologies/frameworks/nouveaux concepts/web 3 / 4.0 comme ses prédécesseurs!

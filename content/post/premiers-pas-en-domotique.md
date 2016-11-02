@@ -3,7 +3,7 @@ date : "2015-06-20T21:31:23+02:00"
 title : Premiers pas en domotique
 tags :
 - domotique
-- mes-projets
+- projets
 ---
 J'ai décidé l'année dernière de me lancer dans l'aventure de la [domotique](/tags/domotique), avec pleins d'idées en tête sur la sécurité et la détection, les mesures de température, l'optimisation de la consommation de l'énergie, le contrôle des lampes et autres, et plus globalement l’automatisation.
 
