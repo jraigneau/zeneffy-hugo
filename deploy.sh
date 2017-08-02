@@ -8,10 +8,12 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
+#remove public dir
+rm -r public
+
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
-# Go To Public folder
 
 # Add changes to git.
 git add -A
@@ -19,16 +21,17 @@ git commit -m "$msg"
 git push origin master
 
 
+# Go To Public folder
 cd public
-cp -R ..\..\jraigneau.github.io\
+rm -R ../../jraigneau.github.io/*
+cp -R . ../../jraigneau.github.io/
 
 cd ..
 cd ..
 
-cd jraigneau.github.io\
+cd jraigneau.github.io/
 
 # Commit changes.
-msg="rebuilding site `date`"
 git add -A
 git commit -m "$msg"
 # Push source and build repos.
